@@ -31,7 +31,8 @@ public class MobSpawnManager
 		Material.GRASS,
 		Material.GRASS,
 		Material.GRASS,
-		Material.GRASS};
+		Material.GRASS,
+		Material.SNOW_BLOCK};
 	
 	private static EntityType[] mobTypes = new EntityType[]{
 		EntityType.CHICKEN,
@@ -41,7 +42,8 @@ public class MobSpawnManager
 		EntityType.PIG,
 		EntityType.SHEEP,
 		EntityType.WOLF,
-		EntityType.HORSE};
+		EntityType.HORSE,
+		EntityType.SNOWMAN};
 	
 	private static int[] maxExisting = new int[] {4, 2, 2, 1, 2, 2, 1, 2};
 	private static double[] probability = new double[] { 5.0, 5.0, 3.0, 1.0, 5.0, 5.0, 1.0, 1.0 };
@@ -55,7 +57,8 @@ public class MobSpawnManager
 				"pig",
 				"sheep",
 				"wolf",
-				"horse"
+				"horse",
+				"snowman"
 			};
 	
 	public MobSpawnManager(HothGeneratorPlugin plugin)
