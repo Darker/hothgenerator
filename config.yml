@@ -95,7 +95,7 @@ hothworlds:
 #  rules.spawn.neutral.mobs - Comma separated list of which neutral mobs to
 #                             spawn.
 #                             Currently supported neutral mobs:
-#                              chicken,cow,mushroom_cow,ocelot,pig,sheep,wolf
+#                              chicken,cow,mushroom_cow,ocelot,pig,sheep,wolf, horse
 hoth:
   debug: false
   iteminfotool: false
@@ -134,4 +134,4 @@ hoth:
   rules.freeze.message: "&bYou are freezing. Find shelter!"
   rules.spawn.neutral.on: true
   rules.spawn.neutral.rarity: 2
-  rules.spawn.neutral.mobs: chicken,cow,mushroom_cow,ocelot,pig,sheep,wolf
+  rules.spawn.neutral.mobs: chicken,cow,mushroom_cow,ocelot,pig,sheep,wolf,horse
